@@ -47,7 +47,7 @@ class TuringMachine
       current_state = transition[:new_state]
       position += move
 
-      return true if position == string.length && @transition_table[current_state][:final]
+      return true if @transition_table[current_state][:final]
     end
 
     false
