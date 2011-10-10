@@ -1,0 +1,7 @@
+q0,false,q1,B,B,R
+q1,false,q2,a,X,R,q5,Y,Y,R,q6,B,B,R
+q2,false,q2,a,a,R,q2,Y,Y,R,q3,b,Y,R
+q3,false,q3,b,b,R,q3,Z,Z,R,q4,c,Z,L
+q4,false,q4,a,a,L,q4,b,b,L,q4,Y,Y,L,q4,Z,Z,L,q1,X,X,R
+q5,false,q5,Y,Y,R,q5,Z,Z,R,q6,B,B,R
+q6,true

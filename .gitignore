@@ -1,0 +1,15 @@
+/*
+!/files
+!/lib
+!/.gitignore
+!/readme.md
+!/program.rb
+
+# OS X
+.DS_Store
+
+# Textmate
+*.tmproj
+
+# BBEdit
+*.bbrojectd

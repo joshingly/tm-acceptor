@@ -1,0 +1,5 @@
+q0,false,q1,B,B,R
+q1,false,q2,a,a,R
+q2,false,q3,a,a,R
+q3,false,q3,a,a,R,q3,b,b,R,q4,B,B,R
+q4,true
