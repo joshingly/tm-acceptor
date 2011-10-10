@@ -28,7 +28,7 @@ class TuringMachine
       end
     end
 
-    @transition_table = tm
+    tm
   end
 
   def simulate( string )
