@@ -50,7 +50,7 @@ class TuringMachine
       return true if position == string.length && @transition_table[current_state][:final]
     end
 
-    return false
+    false
   end
 
 end
