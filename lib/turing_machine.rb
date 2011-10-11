@@ -43,7 +43,7 @@ class TuringMachine
       end
 
       # infinte tape to right
-      tape[position] = "/" if ( position == tape.length + 1 )
+      tape[position] = "/" if ( position == tape.length )
 
       transition = @transition_table[current_state][tape[position].to_sym]
       break unless transition
