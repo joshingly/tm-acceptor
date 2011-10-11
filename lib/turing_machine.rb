@@ -31,25 +31,27 @@ class TuringMachine
     tm
   end
 
-  def simulate( string )
+  def simulate( tape )
     current_state = :q0
     position = 0
 
     while( true )
+      # infinite tape to left
       if ( position == -1 )
         position = 0
-        string = "/" << string
+        tape = "/" << tape
       end
 
-      string[position] = "/" if string[position] == nil
+      # infinte tape to right
+      tape[position] = "/" if ( position == tape.length + 1 )
 
-      transition = @transition_table[current_state][string[position].to_sym]
+      transition = @transition_table[current_state][tape[position].to_sym]
       break unless transition
 
       move = 1 if transition[:direction] == :R
       move = -1 if transition[:direction] == :L
 
-      string[position] = transition[:output].to_s
+      tape[position] = transition[:output].to_s
       current_state = transition[:new_state]
       position += move
 
