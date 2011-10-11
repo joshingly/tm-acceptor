@@ -6,7 +6,7 @@ Given a transition table and a string, determine whether the turing machine desc
 Transition Table Specification
 --
 
-Just a list of values separated by commas. Each line MUST have at least two items, the state name and true or false indicating whether the state is a final state. After that, in groups of 4, you have... new state name, input, output,  and direction to move the tape. Look at ex1, ex2, and ex3 for examples.
+Just a list of values separated by commas. Each line MUST have at least two items, the state name and true or false indicating whether the state is a final state. After that, in groups of 4, you have... new state name, input, output,  and direction to move the tape. Look at ex1, ex2, and ex3 for examples. Lambdas are denoted by forward slashes ( / )
 
 Usage
 --

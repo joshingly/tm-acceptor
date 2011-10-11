@@ -36,6 +36,7 @@ class TuringMachine
     position = 0
 
     while( true )
+      string[position] = "/" if string[position] == nil # infinite tape
       transition = @transition_table[current_state][string[position].to_sym]
       break unless transition
 
