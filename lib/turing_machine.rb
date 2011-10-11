@@ -36,7 +36,6 @@ class TuringMachine
     position = 0
 
     while( true )
-      break if position == string.length
       transition = @transition_table[current_state][string[position].to_sym]
       break unless transition
 
