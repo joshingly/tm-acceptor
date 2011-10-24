@@ -55,7 +55,7 @@ class TuringMachine
       current_state = transition[:new_state]
       position += move
 
-      return true if @transition_table[current_state][:final]
+      return tape if @transition_table[current_state][:final]
     end
 
     false

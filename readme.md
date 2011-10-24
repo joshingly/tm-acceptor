@@ -1,7 +1,7 @@
 Turing Machine String Acceptor
 ==
 
-Given a transition table and a string, determine whether the turing machine described by the given transition table will accept or reject the given string.
+Given a transition table and a string, determine whether the turing machine described by the given transition table will accept or reject the given string. Will return the tape if the string is accepted and false if the string is rejected.
 
 Transition Table Specification
 --
