@@ -7,7 +7,7 @@ puts "---------------------------------------------"
 puts "ex1 accepts the language a^i b^i c^i, i >= 0"
 tm1 = TuringMachine.new("files/ex1.txt")
 puts "BaabbccB: #{ tm1.simulate("BaabbccB") }"
-puts "BaabbccB: #{ tm1.simulate("BaabbbccB") }"
+puts "BaabbbccB: #{ tm1.simulate("BaabbbccB") }"
 
 puts "---------------------------------------------"
 puts "ex2 accepts the language (a | b)*"
