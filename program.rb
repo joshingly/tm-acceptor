@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
-$: << "#{ File.dirname(__FILE__) }/lib/"
-require 'turing_machine'
+require_relative 'lib/turing_machine'
 
 puts "---------------------------------------------"
 puts "ex1 accepts the language a^i b^i c^i, i >= 0"
